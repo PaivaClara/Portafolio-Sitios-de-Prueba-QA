@@ -1,0 +1,64 @@
+body {
+  background-color: #9b59b6;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #fff0f5;
+  padding: 2rem;
+  text-align: center;
+  /* Fondo con flores rosas */
+  background-image: url('https://www.transparenttextures.com/patterns/pink-flowers.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ffe4f7;
+  text-shadow: 0 0 10px #ff66cc;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ffd1f7;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  font-size: 1.4rem;
+  background: rgba(255, 192, 203, 0.2); /* rosa translúcido */
+  padding: 1rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  color: #fff0f5;
+  box-shadow: 0 0 8px #ff99dd;
+}
+
+li:hover {
+  transform: scale(1.1) rotate(3deg);
+  background-color: #f9d5ff;
+  color: #5a005a;
+  box-shadow: 0 0 15px #ff99dd;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff66cc;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #fcd3ec;
+  text-shadow: 0 0 5px #ff99dd;
+}
